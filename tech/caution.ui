@@ -1,0 +1,324 @@
+<ui version="4.0" >
+ <class>cautionClass</class>
+ <widget class="QDialog" name="cautionClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="font" >
+   <font>
+    <pointsize>18</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle" >
+   <string>caution</string>
+  </property>
+  <widget class="QTabWidget" name="TabCaution" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>1024</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="currentIndex" >
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab" >
+    <attribute name="title" >
+     <string>当前故障</string>
+    </attribute>
+    <widget class="QTextEdit" name="curcaution" >
+     <property name="geometry" >
+      <rect>
+       <x>30</x>
+       <y>340</y>
+       <width>961</width>
+       <height>261</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2" >
+    <attribute name="title" >
+     <string>故障记录</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton" >
+     <property name="geometry" >
+      <rect>
+       <x>30</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>第一页</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2" >
+     <property name="geometry" >
+      <rect>
+       <x>210</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>下一页</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3" >
+     <property name="geometry" >
+      <rect>
+       <x>390</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>上一页</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5" >
+     <property name="geometry" >
+      <rect>
+       <x>570</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>最后一页</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label" >
+     <property name="geometry" >
+      <rect>
+       <x>770</x>
+       <y>550</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>第N页/总N页</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_10" >
+     <property name="geometry" >
+      <rect>
+       <x>860</x>
+       <y>10</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>自动刷新</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3" >
+    <attribute name="title" >
+     <string>事件记录</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_6" >
+     <property name="geometry" >
+      <rect>
+       <x>570</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>最后一页</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7" >
+     <property name="geometry" >
+      <rect>
+       <x>210</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>下一页</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8" >
+     <property name="geometry" >
+      <rect>
+       <x>30</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>第一页</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9" >
+     <property name="geometry" >
+      <rect>
+       <x>390</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>上一页</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2" >
+     <property name="geometry" >
+      <rect>
+       <x>770</x>
+       <y>550</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>第N页/总N页</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_11" >
+     <property name="geometry" >
+      <rect>
+       <x>860</x>
+       <y>10</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>自动刷新</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4" >
+    <attribute name="title" >
+     <string>调试信息</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_12" >
+     <property name="geometry" >
+      <rect>
+       <x>30</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>第一页</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_13" >
+     <property name="geometry" >
+      <rect>
+       <x>570</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>最后一页</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3" >
+     <property name="geometry" >
+      <rect>
+       <x>770</x>
+       <y>550</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>第N页/总N页</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_14" >
+     <property name="geometry" >
+      <rect>
+       <x>390</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>上一页</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_15" >
+     <property name="geometry" >
+      <rect>
+       <x>860</x>
+       <y>10</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>自动刷新</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_16" >
+     <property name="geometry" >
+      <rect>
+       <x>210</x>
+       <y>550</y>
+       <width>152</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>下一页</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>720</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text" >
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,109 @@
+<ui version="4.0" >
+ <class>setClass</class>
+ <widget class="QDialog" name="setClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>set</string>
+  </property>
+  <widget class="QPushButton" name="pushButton" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>720</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text" >
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2" >
+   <property name="geometry" >
+    <rect>
+     <x>290</x>
+     <y>720</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text" >
+    <string>应用</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3" >
+   <property name="geometry" >
+    <rect>
+     <x>150</x>
+     <y>720</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text" >
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9" >
+   <property name="geometry" >
+    <rect>
+     <x>570</x>
+     <y>720</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text" >
+    <string>修改密码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10" >
+   <property name="geometry" >
+    <rect>
+     <x>430</x>
+     <y>720</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text" >
+    <string>强制刷新</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

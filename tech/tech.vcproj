@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="tech"
+	ProjectGUID="{C16DA8F8-EF53-3B40-8789-91C9875A43D4}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			IntermediateDirectory="debug\"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-Zm300 -EHsc -w34100 -w34189 -Zm300 -EHsc -w34100 -w34189 -w34100 -w34189"
+				Optimization="4"
+				AdditionalIncludeDirectories="&quot;$(QTDIR)\include\QtCore&quot;,&quot;$(QTDIR)\include\QtCore&quot;,&quot;$(QTDIR)\include\QtGui&quot;,&quot;$(QTDIR)\include\QtGui&quot;,&quot;$(QTDIR)\include\QtXml&quot;,&quot;$(QTDIR)\include\QtXml&quot;,&quot;$(QTDIR)\include\QtSql&quot;,&quot;$(QTDIR)\include\QtSql&quot;,&quot;$(QTDIR)\include&quot;,&quot;debug&quot;,&quot;.&quot;,&quot;$(QTDIR)\include\ActiveQt&quot;,&quot;debug&quot;,&quot;.&quot;,$(QTDIR)\mkspecs\win32-msvc.net"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_SQL_LIB,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"
+				GeneratePreprocessedFile="0"
+				ExceptionHandling="TRUE"
+				RuntimeLibrary="3"
+				BufferSecurityCheck="FALSE"
+				RuntimeTypeInfo="TRUE"
+				AssemblerListingLocation="debug\"
+				ObjectFile="debug\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="TRUE"
+				AdditionalDependencies="Winmm.lib qtmaind.lib d:\workspace\tech\A4NComm.lib d:\workspace\tech\ControlCAN.lib D:\workspace\tech\SentinelKeyW.lib QtSqld4.lib QtXmld4.lib QtGuid4.lib QtCored4.lib D:\workspace\tech\fpdfsdk.lib"
+				OutputFile="debug\tech.exe"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="$(QTDIR)\lib"
+				GenerateDebugInformation="FALSE"
+				ProgramDatabaseFile=""
+				SubSystem="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_SQL_LIB,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,_DEBUG"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			IntermediateDirectory="release\"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-Zm300 -EHsc -w34100 -w34189 -Zm300 -EHsc -w34100 -w34189 -w34100 -w34189"
+				Optimization="2"
+				AdditionalIncludeDirectories="&quot;$(QTDIR)\include\QtCore&quot;,&quot;$(QTDIR)\include\QtCore&quot;,&quot;$(QTDIR)\include\QtGui&quot;,&quot;$(QTDIR)\include\QtGui&quot;,&quot;$(QTDIR)\include\QtXml&quot;,&quot;$(QTDIR)\include\QtXml&quot;,&quot;$(QTDIR)\include\QtSql&quot;,&quot;$(QTDIR)\include\QtSql&quot;,&quot;$(QTDIR)\include&quot;,&quot;debug&quot;,&quot;.&quot;,&quot;$(QTDIR)\include\ActiveQt&quot;,&quot;release&quot;,&quot;.&quot;,$(QTDIR)\mkspecs\win32-msvc.net"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_SQL_LIB,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,NDEBUG"
+				GeneratePreprocessedFile="0"
+				ExceptionHandling="TRUE"
+				RuntimeLibrary="2"
+				BufferSecurityCheck="FALSE"
+				RuntimeTypeInfo="TRUE"
+				AssemblerListingLocation="release\"
+				ObjectFile="release\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="TRUE"
+				AdditionalDependencies="Winmm.lib qtmain.lib d:\workspace\tech\A4NComm.lib d:\workspace\tech\ControlCAN.lib D:\workspace\tech\SentinelKeyW.lib QtSql4.lib QtXml4.lib QtGui4.lib QtCore4.lib D:\workspace\tech\fpdfsdk.lib"
+				OutputFile="release\tech.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="$(QTDIR)\lib"
+				GenerateDebugInformation="FALSE"
+				ProgramDatabaseFile=""
+				SubSystem="2"/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_SQL_LIB,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="backend.cpp">
+			</File>
+			<File
+				RelativePath="backend2.cpp">
+			</File>
+			<File
+				RelativePath="canif.cpp">
+			</File>
+			<File
+				RelativePath="caution.cpp">
+			</File>
+			<File
+				RelativePath="chgpasswd.cpp">
+			</File>
+			<File
+				RelativePath="CMotor.cpp">
+			</File>
+			<File
+				RelativePath="custevent.cpp">
+			</File>
+			<File
+				RelativePath="DB.cpp">
+			</File>
+			<File
+				RelativePath="DBBackend.cpp">
+			</File>
+			<File
+				RelativePath="help.cpp">
+			</File>
+			<File
+				RelativePath="keyboard.cpp">
+			</File>
+			<File
+				RelativePath="keyboard2.cpp">
+			</File>
+			<File
+				RelativePath="main.cpp">
+			</File>
+			<File
+				RelativePath="measurepulse.cpp">
+			</File>
+			<File
+				RelativePath=".\modbus.cpp">
+			</File>
+			<File
+				RelativePath="motortest.cpp">
+			</File>
+			<File
+				RelativePath="opprint.cpp">
+			</File>
+			<File
+				RelativePath="password.cpp">
+			</File>
+			<File
+				RelativePath=".\pcfingerprint.cpp">
+			</File>
+			<File
+				RelativePath=".\safenet.cpp">
+			</File>
+			<File
+				RelativePath="selectprint.cpp">
+			</File>
+			<File
+				RelativePath="set.cpp">
+			</File>
+			<File
+				RelativePath="tech.cpp">
+			</File>
+			<File
+				RelativePath="welcom.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="backend.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC backend.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;backend.h&quot; -o &quot;debug\moc_backend.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;backend.h"
+						Outputs="debug\moc_backend.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC backend.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;backend.h&quot; -o &quot;release\moc_backend.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;backend.h"
+						Outputs="release\moc_backend.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="backend2.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC backend2.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;backend2.h&quot; -o &quot;debug\moc_backend2.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;backend2.h"
+						Outputs="debug\moc_backend2.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC backend2.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;backend2.h&quot; -o &quot;release\moc_backend2.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;backend2.h"
+						Outputs="release\moc_backend2.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="canidcmd.h">
+			</File>
+			<File
+				RelativePath="canif.h">
+			</File>
+			<File
+				RelativePath="caution.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC caution.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;caution.h&quot; -o &quot;debug\moc_caution.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;caution.h"
+						Outputs="debug\moc_caution.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC caution.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;caution.h&quot; -o &quot;release\moc_caution.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;caution.h"
+						Outputs="release\moc_caution.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="chgpasswd.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC chgpasswd.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;chgpasswd.h&quot; -o &quot;debug\moc_chgpasswd.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;chgpasswd.h"
+						Outputs="debug\moc_chgpasswd.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC chgpasswd.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;chgpasswd.h&quot; -o &quot;release\moc_chgpasswd.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;chgpasswd.h"
+						Outputs="release\moc_chgpasswd.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CMotor.h">
+			</File>
+			<File
+				RelativePath="ControlCAN.h">
+			</File>
+			<File
+				RelativePath="custevent.h">
+			</File>
+			<File
+				RelativePath="customevent.h">
+			</File>
+			<File
+				RelativePath="DB.h">
+			</File>
+			<File
+				RelativePath="DBBackend.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC DBBackend.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;DBBackend.h&quot; -o &quot;debug\moc_DBBackend.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;DBBackend.h"
+						Outputs="debug\moc_DBBackend.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC DBBackend.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;DBBackend.h&quot; -o &quot;release\moc_DBBackend.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;DBBackend.h"
+						Outputs="release\moc_DBBackend.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\fpdfdoc.h">
+			</File>
+			<File
+				RelativePath=".\fpdfedit.h">
+			</File>
+			<File
+				RelativePath=".\fpdftext.h">
+			</File>
+			<File
+				RelativePath=".\fpdfview.h">
+			</File>
+			<File
+				RelativePath="help.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC help.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;help.h&quot; -o &quot;debug\moc_help.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;help.h"
+						Outputs="debug\moc_help.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC help.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;help.h&quot; -o &quot;release\moc_help.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;help.h"
+						Outputs="release\moc_help.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="keyboard.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC keyboard.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;keyboard.h&quot; -o &quot;debug\moc_keyboard.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;keyboard.h"
+						Outputs="debug\moc_keyboard.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC keyboard.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;keyboard.h&quot; -o &quot;release\moc_keyboard.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;keyboard.h"
+						Outputs="release\moc_keyboard.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="keyboard2.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC keyboard2.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;keyboard2.h&quot; -o &quot;debug\moc_keyboard2.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;keyboard2.h"
+						Outputs="debug\moc_keyboard2.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC keyboard2.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;keyboard2.h&quot; -o &quot;release\moc_keyboard2.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;keyboard2.h"
+						Outputs="release\moc_keyboard2.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="measurepulse.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC measurepulse.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;measurepulse.h&quot; -o &quot;debug\moc_measurepulse.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;measurepulse.h"
+						Outputs="debug\moc_measurepulse.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC measurepulse.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;measurepulse.h&quot; -o &quot;release\moc_measurepulse.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;measurepulse.h"
+						Outputs="release\moc_measurepulse.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="MemExport.h">
+			</File>
+			<File
+				RelativePath=".\modbus.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing modbus.h..."
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;.\modbus.h&quot; -o &quot;$(ConfigurationName)\moc_modbus.cpp&quot;
+"
+						AdditionalDependencies="&quot;$(QTDIR)\bin\moc.exe&quot;;.\modbus.h"
+						Outputs="&quot;$(ConfigurationName)\moc_modbus.cpp&quot;"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing modbus.h..."
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;.\modbus.h&quot; -o &quot;$(ConfigurationName)\moc_modbus.cpp&quot;
+"
+						AdditionalDependencies="&quot;$(QTDIR)\bin\moc.exe&quot;;.\modbus.h"
+						Outputs="&quot;$(ConfigurationName)\moc_modbus.cpp&quot;"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="motortest.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC motortest.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;motortest.h&quot; -o &quot;debug\moc_motortest.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;motortest.h"
+						Outputs="debug\moc_motortest.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC motortest.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;motortest.h&quot; -o &quot;release\moc_motortest.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;motortest.h"
+						Outputs="release\moc_motortest.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="opprint.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC opprint.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;opprint.h&quot; -o &quot;debug\moc_opprint.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;opprint.h"
+						Outputs="debug\moc_opprint.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC opprint.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;opprint.h&quot; -o &quot;release\moc_opprint.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;opprint.h"
+						Outputs="release\moc_opprint.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="password.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC password.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;password.h&quot; -o &quot;debug\moc_password.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;password.h"
+						Outputs="debug\moc_password.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC password.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;password.h&quot; -o &quot;release\moc_password.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;password.h"
+						Outputs="release\moc_password.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\pcfingerprint.h">
+			</File>
+			<File
+				RelativePath=".\safenet.h">
+			</File>
+			<File
+				RelativePath="selectprint.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC selectprint.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;selectprint.h&quot; -o &quot;debug\moc_selectprint.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;selectprint.h"
+						Outputs="debug\moc_selectprint.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC selectprint.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;selectprint.h&quot; -o &quot;release\moc_selectprint.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;selectprint.h"
+						Outputs="release\moc_selectprint.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\SentinelKeys.h">
+			</File>
+			<File
+				RelativePath=".\SentinelKeysLicense.h">
+			</File>
+			<File
+				RelativePath=".\SentinelKeystypes.h">
+			</File>
+			<File
+				RelativePath="set.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC set.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;set.h&quot; -o &quot;debug\moc_set.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;set.h"
+						Outputs="debug\moc_set.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC set.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;set.h&quot; -o &quot;release\moc_set.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;set.h"
+						Outputs="release\moc_set.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tech.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC tech.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;tech.h&quot; -o &quot;debug\moc_tech.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;tech.h"
+						Outputs="debug\moc_tech.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC tech.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;tech.h&quot; -o &quot;release\moc_tech.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;tech.h"
+						Outputs="release\moc_tech.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="welcom.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC welcom.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;welcom.h&quot; -o &quot;debug\moc_welcom.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;welcom.h"
+						Outputs="debug\moc_welcom.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC welcom.h"
+						CommandLine="&quot;$(QTDIR)\bin\moc.exe&quot;  -DQT_NO_DEBUG -DNDEBUG -D_WINDOWS -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DNDEBUG -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include\QtSql&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;.\debug&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;.\release&quot; -I&quot;.&quot; -I&quot;$(QTDIR)\mkspecs\win32-msvc.net&quot; &quot;welcom.h&quot; -o &quot;release\moc_welcom.cpp&quot;
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;welcom.h"
+						Outputs="release\moc_welcom.cpp"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="release\moc_backend.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_backend.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_backend2.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_backend2.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_caution.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_caution.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_chgpasswd.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_chgpasswd.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_DBBackend.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_DBBackend.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_help.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_help.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_keyboard.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_keyboard.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_keyboard2.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_keyboard2.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_measurepulse.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_measurepulse.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\debug\moc_modbus.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\release\moc_modbus.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"
+						ObjectFile="$(IntDir)/$(InputName)1.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						ObjectFile="$(IntDir)/$(InputName)1.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_motortest.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_motortest.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_opprint.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_opprint.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_password.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_password.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_selectprint.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_selectprint.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_set.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_set.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_tech.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_tech.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_welcom.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_welcom.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\qrc_tech.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\qrc_tech.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ui_caution.h">
+			</File>
+			<File
+				RelativePath="ui_chgpasswd.h">
+			</File>
+			<File
+				RelativePath="ui_help.h">
+			</File>
+			<File
+				RelativePath="ui_keyboard.h">
+			</File>
+			<File
+				RelativePath="ui_keyboard2.h">
+			</File>
+			<File
+				RelativePath="ui_measurepulse.h">
+			</File>
+			<File
+				RelativePath="ui_motortest.h">
+			</File>
+			<File
+				RelativePath="ui_opprint.h">
+			</File>
+			<File
+				RelativePath="ui_password.h">
+			</File>
+			<File
+				RelativePath="ui_selectprint.h">
+			</File>
+			<File
+				RelativePath="ui_set.h">
+			</File>
+			<File
+				RelativePath="ui_tech.h">
+			</File>
+			<File
+				RelativePath="ui_welcom.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="FALSE">
+			<File
+				RelativePath="caution.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC caution.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe caution.ui -o ui_caution.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;caution.ui"
+						Outputs="ui_caution.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC caution.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe caution.ui -o ui_caution.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;caution.ui"
+						Outputs="ui_caution.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="chgpasswd.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC chgpasswd.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe chgpasswd.ui -o ui_chgpasswd.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;chgpasswd.ui"
+						Outputs="ui_chgpasswd.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC chgpasswd.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe chgpasswd.ui -o ui_chgpasswd.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;chgpasswd.ui"
+						Outputs="ui_chgpasswd.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="help.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC help.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe help.ui -o ui_help.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;help.ui"
+						Outputs="ui_help.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC help.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe help.ui -o ui_help.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;help.ui"
+						Outputs="ui_help.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="keyboard.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC keyboard.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe keyboard.ui -o ui_keyboard.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;keyboard.ui"
+						Outputs="ui_keyboard.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC keyboard.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe keyboard.ui -o ui_keyboard.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;keyboard.ui"
+						Outputs="ui_keyboard.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="keyboard2.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC keyboard2.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe keyboard2.ui -o ui_keyboard2.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;keyboard2.ui"
+						Outputs="ui_keyboard2.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC keyboard2.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe keyboard2.ui -o ui_keyboard2.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;keyboard2.ui"
+						Outputs="ui_keyboard2.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="measurepulse.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC measurepulse.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe measurepulse.ui -o ui_measurepulse.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;measurepulse.ui"
+						Outputs="ui_measurepulse.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC measurepulse.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe measurepulse.ui -o ui_measurepulse.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;measurepulse.ui"
+						Outputs="ui_measurepulse.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="motortest.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC motortest.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe motortest.ui -o ui_motortest.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;motortest.ui"
+						Outputs="ui_motortest.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC motortest.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe motortest.ui -o ui_motortest.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;motortest.ui"
+						Outputs="ui_motortest.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="opprint.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC opprint.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe opprint.ui -o ui_opprint.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;opprint.ui"
+						Outputs="ui_opprint.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC opprint.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe opprint.ui -o ui_opprint.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;opprint.ui"
+						Outputs="ui_opprint.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="password.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC password.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe password.ui -o ui_password.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;password.ui"
+						Outputs="ui_password.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC password.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe password.ui -o ui_password.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;password.ui"
+						Outputs="ui_password.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="selectprint.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC selectprint.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe selectprint.ui -o ui_selectprint.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;selectprint.ui"
+						Outputs="ui_selectprint.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC selectprint.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe selectprint.ui -o ui_selectprint.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;selectprint.ui"
+						Outputs="ui_selectprint.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="set.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC set.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe set.ui -o ui_set.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;set.ui"
+						Outputs="ui_set.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC set.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe set.ui -o ui_set.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;set.ui"
+						Outputs="ui_set.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tech.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC tech.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe tech.ui -o ui_tech.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;tech.ui"
+						Outputs="ui_tech.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC tech.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe tech.ui -o ui_tech.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;tech.ui"
+						Outputs="ui_tech.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="welcom.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC welcom.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe welcom.ui -o ui_welcom.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;welcom.ui"
+						Outputs="ui_welcom.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC welcom.ui"
+						CommandLine="$(QTDIR)\bin\uic.exe welcom.ui -o ui_welcom.h
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;welcom.ui"
+						Outputs="ui_welcom.h"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="FALSE">
+			<File
+				RelativePath="images\1.PNG">
+			</File>
+			<File
+				RelativePath="images\action1.PNG">
+			</File>
+			<File
+				RelativePath="images\action1_on.PNG">
+			</File>
+			<File
+				RelativePath="images\action2.PNG">
+			</File>
+			<File
+				RelativePath="images\action2_on.PNG">
+			</File>
+			<File
+				RelativePath="images\action3.PNG">
+			</File>
+			<File
+				RelativePath="images\action3_on.PNG">
+			</File>
+			<File
+				RelativePath="images\action4.PNG">
+			</File>
+			<File
+				RelativePath="images\action4_on.PNG">
+			</File>
+			<File
+				RelativePath="images\action5.PNG">
+			</File>
+			<File
+				RelativePath="images\action5_on.PNG">
+			</File>
+			<File
+				RelativePath="images\action_mask.PNG">
+			</File>
+			<File
+				RelativePath=".\images\active.jpg">
+			</File>
+			<File
+				RelativePath="images\auto_mask.PNG">
+			</File>
+			<File
+				RelativePath="images\caution_green.PNG">
+			</File>
+			<File
+				RelativePath="images\caution_mask.PNG">
+			</File>
+			<File
+				RelativePath="images\caution_red.PNG">
+			</File>
+			<File
+				RelativePath="images\caution_yellow.PNG">
+			</File>
+			<File
+				RelativePath="images\citaiguanbi.PNG">
+			</File>
+			<File
+				RelativePath=".\images\citaiguanbibt.PNG">
+			</File>
+			<File
+				RelativePath=".\images\citaiguanbibt_on.PNG">
+			</File>
+			<File
+				RelativePath="images\citaijiaci.PNG">
+			</File>
+			<File
+				RelativePath=".\images\citaikaiqibt.PNG">
+			</File>
+			<File
+				RelativePath=".\images\citaikaiqibt_on.PNG">
+			</File>
+			<File
+				RelativePath="images\duiling.PNG">
+			</File>
+			<File
+				RelativePath="images\duiling_ing.PNG">
+			</File>
+			<File
+				RelativePath="images\duiling_ing_on.PNG">
+			</File>
+			<File
+				RelativePath="images\duiling_on.PNG">
+			</File>
+			<File
+				RelativePath="images\fangxia.PNG">
+			</File>
+			<File
+				RelativePath="images\fanzhuan.PNG">
+			</File>
+			<File
+				RelativePath="images\fanzhuan_ing.PNG">
+			</File>
+			<File
+				RelativePath="images\fanzhuan_ing_on.PNG">
+			</File>
+			<File
+				RelativePath="images\fanzhuan_on.PNG">
+			</File>
+			<File
+				RelativePath="images\guzhang.PNG">
+			</File>
+			<File
+				RelativePath=".\Resources\image1.png">
+			</File>
+			<File
+				RelativePath="images\init.PNG">
+			</File>
+			<File
+				RelativePath="images\io0.PNG">
+			</File>
+			<File
+				RelativePath="images\io00.PNG">
+			</File>
+			<File
+				RelativePath="images\io01.PNG">
+			</File>
+			<File
+				RelativePath="images\io1.PNG">
+			</File>
+			<File
+				RelativePath="images\io10.PNG">
+			</File>
+			<File
+				RelativePath="images\io11.PNG">
+			</File>
+			<File
+				RelativePath="images\jb1.PNG">
+			</File>
+			<File
+				RelativePath="images\jb2.PNG">
+			</File>
+			<File
+				RelativePath="images\jiangbenfanzhuan.PNG">
+			</File>
+			<File
+				RelativePath="images\jiangbenting.PNG">
+			</File>
+			<File
+				RelativePath="images\jiangbenzhengzhuan.PNG">
+			</File>
+			<File
+				RelativePath=".\images\jiting.PNG">
+			</File>
+			<File
+				RelativePath="images\liaogansongxia.PNG">
+			</File>
+			<File
+				RelativePath="images\liaogansuojing.PNG">
+			</File>
+			<File
+				RelativePath="images\logo.PNG">
+			</File>
+			<File
+				RelativePath="images\nobkgrd.PNG">
+			</File>
+			<File
+				RelativePath=".\images\padtopbar.jpg">
+			</File>
+			<File
+				RelativePath=".\images\prepare.jpg">
+			</File>
+			<File
+				RelativePath="images\printpad4.PNG">
+			</File>
+			<File
+				RelativePath="images\qidong.PNG">
+			</File>
+			<File
+				RelativePath="images\shezhi.PNG">
+			</File>
+			<File
+				RelativePath="images\shoudong.PNG">
+			</File>
+			<File
+				RelativePath=".\images\sleep.jpg">
+			</File>
+			<File
+				RelativePath="images\songwang.PNG">
+			</File>
+			<File
+				RelativePath="images\stat_no.PNG">
+			</File>
+			<File
+				RelativePath="images\stat_yes.PNG">
+			</File>
+			<File
+				RelativePath="images\taiqi.PNG">
+			</File>
+			<File
+				RelativePath=".\images\taiwangbt.PNG">
+			</File>
+			<File
+				RelativePath=".\images\taiwangbt_on.PNG">
+			</File>
+			<File
+				RelativePath="tech.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Rcc&apos;ing tech.qrc..."
+						CommandLine="&quot;$(QTDIR)\bin\rcc.exe&quot; -name &quot;tech&quot; -no-compress &quot;tech.qrc&quot; -o debug\qrc_tech.cpp
+"
+						AdditionalDependencies="tech.qrc;images/1.PNG;images/action1.PNG;images/action1_on.PNG;images/action2.PNG;images/action2_on.PNG;images/action3.PNG;images/action3_on.PNG;images/action4.PNG;images/action4_on.PNG;images/action5.PNG;images/action5_on.PNG;images/action_mask.PNG;images/active.jpg;images/auto_mask.PNG;images/caution_green.PNG;images/caution_mask.PNG;images/caution_red.PNG;images/caution_yellow.PNG;images/citaiguanbi.PNG;images/citaiguanbibt.PNG;images/citaiguanbibt_on.PNG;images/citaijiaci.PNG;images/citaikaiqibt.PNG;images/citaikaiqibt_on.PNG;images/duiling.PNG;images/duiling_ing.PNG;images/duiling_ing_on.PNG;images/duiling_on.PNG;images/fangxia.PNG;images/fanzhuan.PNG;images/fanzhuan_ing.PNG;images/fanzhuan_ing_on.PNG;images/fanzhuan_on.PNG;images/guzhang.PNG;images/init.PNG;images/io0.PNG;images/io00.PNG;images/io01.PNG;images/io1.PNG;images/io10.PNG;images/io11.PNG;images/jiangbenfanzhuan.PNG;images/jiangbenting.PNG;images/jiangbenzhengzhuan.PNG;images/jiting.PNG;images/liaogansongxia.PNG;images/liaogansuojing.PNG;images/logo.PNG;images/nobkgrd.PNG;images/padtopbar.jpg;images/prepare.jpg;images/printpad4.PNG;images/qidong.PNG;images/shezhi.PNG;images/shoudong.PNG;images/sleep.jpg;images/songwang.PNG;images/stat_no.PNG;images/stat_yes.PNG;images/taiqi.PNG;images/taiwangbt.PNG;images/taiwangbt_on.PNG;images/usertitle.jpg;images/work.jpg;images/xiawangbt.PNG;images/xiawangbt_on.PNG;images/xiumian.PNG;images/yunxing.PNG;images/zero0.PNG;images/zero1.PNG;images/zhangjin.PNG;images/zhunbei.PNG"
+						Outputs="debug\qrc_tech.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Rcc&apos;ing tech.qrc..."
+						CommandLine="&quot;$(QTDIR)\bin\rcc.exe&quot; -name &quot;tech&quot; -no-compress &quot;tech.qrc&quot; -o release\qrc_tech.cpp
+"
+						AdditionalDependencies="tech.qrc;images/1.PNG;images/action1.PNG;images/action1_on.PNG;images/action2.PNG;images/action2_on.PNG;images/action3.PNG;images/action3_on.PNG;images/action4.PNG;images/action4_on.PNG;images/action5.PNG;images/action5_on.PNG;images/action_mask.PNG;images/active.jpg;images/auto_mask.PNG;images/caution_green.PNG;images/caution_mask.PNG;images/caution_red.PNG;images/caution_yellow.PNG;images/citaiguanbi.PNG;images/citaiguanbibt.PNG;images/citaiguanbibt_on.PNG;images/citaijiaci.PNG;images/citaikaiqibt.PNG;images/citaikaiqibt_on.PNG;images/duiling.PNG;images/duiling_ing.PNG;images/duiling_ing_on.PNG;images/duiling_on.PNG;images/fangxia.PNG;images/fanzhuan.PNG;images/fanzhuan_ing.PNG;images/fanzhuan_ing_on.PNG;images/fanzhuan_on.PNG;images/guzhang.PNG;images/init.PNG;images/io0.PNG;images/io00.PNG;images/io01.PNG;images/io1.PNG;images/io10.PNG;images/io11.PNG;images/jiangbenfanzhuan.PNG;images/jiangbenting.PNG;images/jiangbenzhengzhuan.PNG;images/jiting.PNG;images/liaogansongxia.PNG;images/liaogansuojing.PNG;images/logo.PNG;images/nobkgrd.PNG;images/padtopbar.jpg;images/prepare.jpg;images/printpad4.PNG;images/qidong.PNG;images/shezhi.PNG;images/shoudong.PNG;images/sleep.jpg;images/songwang.PNG;images/stat_no.PNG;images/stat_yes.PNG;images/taiqi.PNG;images/taiwangbt.PNG;images/taiwangbt_on.PNG;images/usertitle.jpg;images/work.jpg;images/xiawangbt.PNG;images/xiawangbt_on.PNG;images/xiumian.PNG;images/yunxing.PNG;images/zero0.PNG;images/zero1.PNG;images/zhangjin.PNG;images/zhunbei.PNG"
+						Outputs="release\qrc_tech.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\images\usertitle.jpg">
+			</File>
+			<File
+				RelativePath=".\images\work.jpg">
+			</File>
+			<File
+				RelativePath="images\xiawang_down.PNG">
+			</File>
+			<File
+				RelativePath="images\xiawang_down_on.PNG">
+			</File>
+			<File
+				RelativePath="images\xiawang_up.PNG">
+			</File>
+			<File
+				RelativePath="images\xiawang_up_on.PNG">
+			</File>
+			<File
+				RelativePath=".\images\xiawangbt.PNG">
+			</File>
+			<File
+				RelativePath=".\images\xiawangbt_on.PNG">
+			</File>
+			<File
+				RelativePath="images\xiumian.PNG">
+			</File>
+			<File
+				RelativePath="images\yunxing.PNG">
+			</File>
+			<File
+				RelativePath="images\zero0.PNG">
+			</File>
+			<File
+				RelativePath="images\zero1.PNG">
+			</File>
+			<File
+				RelativePath="images\zhangjin.PNG">
+			</File>
+			<File
+				RelativePath=".\images\zhunbei.PNG">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

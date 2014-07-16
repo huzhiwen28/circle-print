@@ -1,0 +1,37 @@
+<ui version="4.0" >
+ <class>opprintClass</class>
+ <widget class="QDialog" name="opprintClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>opprint</string>
+  </property>
+  <widget class="QPushButton" name="pushButton" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>745</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text" >
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>
